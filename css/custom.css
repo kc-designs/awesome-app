@@ -1,0 +1,48 @@
+/* Custom CSS styles for Awesome App */
+
+.awesome-app {
+    
+    height:600px;
+    width:auto; 
+    box-shadow: 10px 0px 10px rgba(0,0,0,0.3)
+}
+
+.present_img {
+    text-align: center;
+}
+
+.custom-btn {
+    background-color: #656cfa !important;
+    border: 2px solid #fff !important;
+}
+
+.custom-btn-2 {
+    background-color: #f769b2 !important;
+    border: 2px solid #fff !important;
+}
+
+.custom-btn:hover, .custom-btn-2:hover {
+    background-color: slategrey !important;
+}
+
+#home {
+    box-shadow: 10px 3px 60px;
+}
+
+.features_detail {
+    margin-top:0px;
+}
+
+.aa-icons {
+    color: #656cfa !important;
+}
+
+#services {
+    background-color: #000;
+    color:#fff;
+}
+
+#services p, #services h4, #services h5 {
+    
+    color:#fff
+}
