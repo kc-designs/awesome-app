@@ -21,8 +21,12 @@
     border: 2px solid #fff !important;
 }
 
-.custom-btn:hover, .custom-btn-2:hover {
-    background-color: slategrey !important;
+.custom-btn:hover {
+    background-color: #4b53ff !important;
+}
+
+.custom-btn-2:hover {
+    background-color: #fa57ab !important;
 }
 
 #home {
@@ -38,11 +42,45 @@
 }
 
 #services {
-    background-color: #000;
+    background-color: #07123A;
     color:#fff;
 }
 
 #services p, #services h4, #services h5 {
     
     color:#fff
+}
+
+#services i {
+    color: #f769b2;
+}
+
+#pricing h2, #pricing h4 {
+    color:#585858;
+}
+
+#pricing h2 {
+      border-bottom: 1px solid grey;
+}
+
+.custom-price-table {
+    box-shadow: 0px 0px 20px 1px #585858;
+}
+
+.sub-btn {
+    background-color: #656cfa !important;
+    box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+}
+
+.sub-btn:hover {
+    background-color: #4b53ff !important;
+}
+
+.fade-names {
+    color: grey !important; 
+}
+
+.test-container {
+    padding-top:20px;
+    padding-bottom:20px;
 }

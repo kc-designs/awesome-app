@@ -23,7 +23,7 @@ section {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Open sans', sans-serif;
 }
 
 h1 {
@@ -1053,7 +1053,7 @@ section.top_banner_bg:after {
   text-transform: uppercase;
 }
 
-
+/*
 .section_heading h2::after {
   bottom: -34px;
   content: "";
@@ -1065,6 +1065,7 @@ section.top_banner_bg:after {
   right: 0;
   color: rgba(0, 0, 0, 0.5);
 }
+*/
 
 .section_heading h4 {
   font-weight: 300;
@@ -1144,6 +1145,7 @@ section.top_banner_bg:after {
   color:#fff;
 }
 
+/*
 .section_heading.section_heading_2 h2::after {
   bottom: -34px;
   content: "";
@@ -1155,6 +1157,7 @@ section.top_banner_bg:after {
   right: 0;
   color: rgba(255, 255, 255, 0.5);
 }
+*/
 
 .section_heading.section_heading_2 h4 {
   font-weight: 300;
@@ -1269,6 +1272,8 @@ section.our_service_bg:after {
   position: relative;
 }
 
+/* before and after h5:
+
 .how_it_work_m.text-right h5::after {
   border-bottom: 1px solid hsl(42, 93%, 51%);
   bottom: 0;
@@ -1290,6 +1295,7 @@ section.our_service_bg:after {
   z-index: 1;
   color:#f6b20e;
 }
+*/
 
 .how_it_work_m p {
   font-size: 14px;
@@ -1310,6 +1316,7 @@ section.our_service_bg:after {
   position: relative;
 }
 
+/* before and after h5:
 .how_it_work_m.text-left h5::after {
   border-bottom: 0.5px solid #f6b20e;
   bottom: 0;
@@ -1331,7 +1338,7 @@ section.our_service_bg:after {
   z-index: 1;
   color:#f6b20e;
 }
-
+/*
 
 
 /*--------price rate ----------*/
@@ -1351,7 +1358,7 @@ section.our_service_bg:after {
 }
 
 .discount {
-  background: #d7232d none repeat scroll 0 0;
+  background: #f769b2 none repeat scroll 0 0;
   left: -30px;
   padding: 5px 35px;
   position: absolute;
@@ -1420,13 +1427,13 @@ section.our_service_bg:after {
 }
 
 .price_month_m {
-  background: #d7232d none repeat scroll 0 0;
+  background: #f769b2 none repeat scroll 0 0;
   padding:10px 0;
 }
 
 
 section.price_table_bg {
-  background: url(../images/price_table_bg.png) repeat scroll 0 0;
+  background-color: #f3f3f3;
   position:relative;
 }
 
@@ -1441,7 +1448,7 @@ section.price_table_bg:after {
 	height:100%;
 	width:100%;
 	content:"";
-	background:rgba(1, 10, 28, 0.8);	
+	background:#f3f3f3;	
 }
 
 
@@ -1473,7 +1480,8 @@ section.price_table_bg:after {
 
 /*--------- testomimianl------*/
 section.testimonial_bg {
-  background: url(../images/testi_bg.png) repeat scroll 0 0;
+  background: url(../images/sky.jpg) no-repeat;
+    background-size: cover;
   position:relative;
 }
 
@@ -1491,35 +1499,16 @@ section.testimonial_bg:after {
 .testimonial_slide {
   margin: 0 auto;
   padding: 15px 0;
-  width: 675px;
+  width: 450px;
   overflow:hidden;
   border:1px solid rgba(59, 66, 77, 0.6);
   border-radius:10px;
 }
 
-
-.testi_img {
-  float: left;
-  text-align: center;
-  width: 30%;
-}
-.testi_img > h5 {
-  color: hsl(0, 0%, 100%);
-  font-size: 20px;
-  font-weight: 400;
-}
- 
- 
-  .testi_img > p {
-  font-size: 12px;
-  font-weight: 300;
-  color: #f6b20e;
-  line-height: 15px;
-}
 .testi-text {
-  float: left;
-  padding: 20px 16px 0;
-  width: 69%;
+  padding: 20px 16px ;
+  width: 100%;
+    margin:0 auto;
 }
 
 .testi-text > p {
@@ -1793,7 +1782,8 @@ label {
 }
 
 footer{
-	padding:50px 0 0;	
+	padding:50px 0 0;
+    background-color: #07123A !important;
 }
 .footer_top > h4 {
   font-weight: 300;
@@ -1805,7 +1795,7 @@ footer{
   padding: 0;
 }
 .footer_top li {
-  background: hsl(216, 100%, 1%) none repeat scroll 0 0;
+  background: #f769b2 none repeat scroll 0 0;
   border-radius: 100%;
   display: inline-block;
   font-size: 26px;
@@ -1817,7 +1807,7 @@ footer{
 }
 
 .footer_top li:hover {
-  background:#ffa200 none repeat scroll 0 0;
+  background:#fa57ab none repeat scroll 0 0;
 }
 
 .footer_top a {
